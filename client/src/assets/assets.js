@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import  logo2 from "./logo2.png";
 import gmail_logo from "./gmail_logo.svg";
 import facebook_logo from "./facebook_logo.svg";
 import instagram_logo from "./instagram_logo.svg";
@@ -45,6 +46,7 @@ export const cityList = ['Lucknow', 'Kanpur', 'Delhi', 'Mumbai']
 
 export const assets = {
     logo,
+    logo2,
     gmail_logo,
     facebook_logo,
     instagram_logo,

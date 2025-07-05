@@ -26,7 +26,7 @@ function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
             className='w-34 md:w-32'
-            src={assets.logo}
+            src={assets.logo2}
             alt='dummyLogoColored'
           />
           <p className='max-w-[410px] mt-6'>

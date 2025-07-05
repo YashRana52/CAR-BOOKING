@@ -90,11 +90,12 @@ function AddCar() {
         <div className="mx-auto sm:mx-0">
           <label htmlFor="car-image" className="block w-fit cursor-pointer">
             <div className="w-28 h-28 border border-dashed border-gray-300 rounded-lg flex items-center justify-center overflow-hidden hover:border-primary transition">
-              <img
-                src={image ? URL.createObjectURL(image) : assets.upload_icon}
-                alt="Upload"
-                className="object-contain w-10 h-10"
-              />
+             <img
+  src={image ? URL.createObjectURL(image) : assets.upload_icon}
+  alt="Upload"
+  className={`object-contain ${image ? "w-24 h-24" : "w-10 h-10"}`}
+/>
+
             </div>
             <input
               hidden

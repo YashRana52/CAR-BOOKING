@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { assets, cityList } from '../assets/assets'
 import { useAppContext } from '../context/AppContext'
+// eslint-disable-next-line no-unused-vars
 import {motion, scale} from 'motion/react'
 
 function Hero() {
